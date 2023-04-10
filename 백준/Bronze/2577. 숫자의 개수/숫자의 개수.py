@@ -1,0 +1,16 @@
+import sys
+x = int(sys.stdin.readline())
+y = int(sys.stdin.readline())
+z = int(sys.stdin.readline())
+
+b= str(x*y*z)
+print(b.count("0"))
+print(b.count("1"))
+print(b.count("2"))
+print(b.count("3"))
+print(b.count("4"))
+print(b.count("5"))
+print(b.count("6"))
+print(b.count("7"))
+print(b.count("8"))
+print(b.count("9"))
