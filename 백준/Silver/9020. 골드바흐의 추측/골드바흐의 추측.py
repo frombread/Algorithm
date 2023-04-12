@@ -13,7 +13,7 @@ for _ in range(int(sys.stdin.readline())):
     num = int(int(sys.stdin.readline()))
 
     a, b = num//2, num//2
-    for _ in range((num//2)+1):
+    for _ in range((num//2)):
        if test(a) and test(b):
           print(a,b)
           break
