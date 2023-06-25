@@ -14,5 +14,5 @@ def solution(book_time):
                 answer +=1
         if(answer > max_answer):
             max_answer = answer
-        
+    print(1)
     return max_answer
