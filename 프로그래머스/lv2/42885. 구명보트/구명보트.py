@@ -2,7 +2,7 @@ from collections import deque
 def solution(people, limit):
     answer = 0
     wei=0
-    q= deque( )
+    q = deque()
     people.sort(reverse = 1)
     for i in people:
         q.append(i)
